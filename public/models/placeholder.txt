@@ -1,0 +1,25 @@
+# 3D Models Directory
+
+This directory should contain 3D model files for interactive viewing:
+
+## Supported Formats:
+- .glb (GL Transmission Format Binary) - Recommended
+- .usdz (Universal Scene Description) - For iOS/macOS compatibility
+- .obj (Wavefront OBJ) - Alternative format
+
+## Model Files:
+- turbine.glb (Turbine Housing Assembly 3D model)
+- medical-device.glb (Medical Device Prototype 3D model)
+- robot-arm.glb (Industrial Robot Arm 3D model)
+
+## Model Specifications:
+- File size: Keep under 10MB for web performance
+- Polygons: Optimize for web viewing (under 100k triangles recommended)
+- Textures: Include PBR materials for realistic rendering
+- Animation: Optional, but can include assembly animations
+
+## Optimization Tips:
+- Use tools like Blender or online GLB optimizers
+- Compress textures to reduce file size
+- Remove unnecessary geometry and materials
+- Test loading performance on various devices

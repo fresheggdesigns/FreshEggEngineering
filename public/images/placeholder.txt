@@ -1,0 +1,50 @@
+# Placeholder Images Directory
+
+This directory should contain the following placeholder images for the portfolio:
+
+## Project Images:
+- turbine-cover.jpg (Turbine Housing Assembly cover)
+- turbine-1.jpg (Turbine Housing Assembly image 1)
+- turbine-2.jpg (Turbine Housing Assembly image 2)
+- turbine-explode.jpg (Turbine Housing Assembly exploded view)
+
+- suspension-cover.jpg (Automotive Suspension System cover)
+- suspension-1.jpg (Automotive Suspension System image 1)
+- suspension-2.jpg (Automotive Suspension System image 2)
+- suspension-analysis.jpg (Automotive Suspension System analysis)
+
+- medical-cover.jpg (Medical Device Prototype cover)
+- medical-1.jpg (Medical Device Prototype image 1)
+- medical-2.jpg (Medical Device Prototype image 2)
+- medical-3.jpg (Medical Device Prototype image 3)
+
+- aerospace-cover.jpg (Aerospace Component Analysis cover)
+- aerospace-1.jpg (Aerospace Component Analysis image 1)
+- aerospace-2.jpg (Aerospace Component Analysis image 2)
+- aerospace-3.jpg (Aerospace Component Analysis image 3)
+
+- robot-cover.jpg (Industrial Robot Arm cover)
+- robot-1.jpg (Industrial Robot Arm image 1)
+- robot-2.jpg (Industrial Robot Arm image 2)
+- robot-3.jpg (Industrial Robot Arm image 3)
+
+- electronics-cover.jpg (Consumer Electronics Design cover)
+- electronics-1.jpg (Consumer Electronics Design image 1)
+- electronics-2.jpg (Consumer Electronics Design image 2)
+- electronics-3.jpg (Consumer Electronics Design image 3)
+
+## Recommended Image Specifications:
+- Cover images: 800x600px (4:3 aspect ratio)
+- Detail images: 1200x800px (3:2 aspect ratio)
+- Format: JPG or PNG
+- Quality: High resolution for web display
+- Content: Engineering renders, CAD models, technical drawings, product photos
+
+## 3D Models Directory:
+- /models/turbine.glb (Turbine Housing Assembly 3D model)
+- /models/medical-device.glb (Medical Device Prototype 3D model)
+- /models/robot-arm.glb (Industrial Robot Arm 3D model)
+
+## Other Assets:
+- favicon.ico (Website favicon)
+- logo.png (Optional: Company/personal logo)
