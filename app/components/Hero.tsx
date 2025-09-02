@@ -65,8 +65,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
           >
-            <span className="block text-white">Precision</span>
-            <span className="block gradient-text">Design in 3D</span>
+            <span className="block text-white">Welcome to</span>
+            <span className="block gradient-text">Fresh Egg Engineering</span>
           </motion.h1>
 
           {/* Subtitle */}
