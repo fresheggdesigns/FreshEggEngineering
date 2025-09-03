@@ -37,10 +37,7 @@ export default function ContactForm() {
     setErrorMessage('');
 
     try {
-      // Use Formspree endpoint (replace with your actual endpoint)
-      const formspreeEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_ID || 'your-form-id';
-      
-      const response = await fetch(`https://formspree.io/f/${formspreeEndpoint}`, {
+      const response = await fetch(`https://formspree.io/f/mqadgedg`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
