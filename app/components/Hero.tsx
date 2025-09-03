@@ -114,15 +114,15 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8, ease: 'easeOut' }}
           >
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-400 mb-2">5+</div>
+              <div className="text-3xl font-bold text-blue-400 mb-2">8+</div>
               <div className="text-gray-400">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
-              <div className="text-gray-400">Projects Completed</div>
+              <div className="text-3xl font-bold text-purple-400 mb-2">90%</div>
+              <div className="text-gray-400">1st Pass Yield</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-green-400 mb-2">15+</div>
+              <div className="text-3xl font-bold text-green-400 mb-2">6+</div>
               <div className="text-gray-400">Tools Mastered</div>
             </div>
           </motion.div>

@@ -9,19 +9,20 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    {
+   /* {
       name: 'GitHub',
       href: 'https://github.com',
       icon: Github,
     },
+    */
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://linkedin.com/in/connorhegg',
       icon: Linkedin,
     },
     {
       name: 'Email',
-      href: 'mailto:contact@precision3d.com',
+      href: 'connorhegg@gmail.com',
       icon: Mail,
     },
   ];
@@ -116,9 +117,9 @@ export default function Footer() {
             >
               <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
               <div className="space-y-2 text-gray-400">
-                <p>contact@precision3d.com</p>
-                <p>+1 (234) 567-890</p>
-                <p className="text-sm">Available for freelance projects</p>
+                <p>connorhegg@gmail.com</p>
+                <p>+1 (540) 435 - 1803</p>
+                <p className="text-sm">Available for new remote opportunities </p>
               </div>
             </motion.div>
           </div>
@@ -133,7 +134,7 @@ export default function Footer() {
           className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Precision3D. All rights reserved.
+            © {new Date().getFullYear()} FreshEggEng. All rights reserved.
           </p>
           
           <div className="flex items-center gap-4">
