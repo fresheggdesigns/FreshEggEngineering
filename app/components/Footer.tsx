@@ -57,7 +57,7 @@ export default function Footer() {
             >
               <div className="mb-4">
                 <Image
-                  src="/images/FreshEggEngineering-Logo.png"
+                  src="/images/FreshEggEngineeringLogo.png"
                   alt="FreshEgg Engineering"
                   width={150}
                   height={50}

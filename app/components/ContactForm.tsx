@@ -218,31 +218,7 @@ export default function ContactForm() {
             </form>
           </motion.div>
 
-          {/* Contact Info */}
-          <motion.div
-            className="mt-12 text-center"
-            initial={{ opacity: 0, y: 30 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            <p className="text-gray-400 mb-4">
-              Prefer to reach out directly?
-            </p>
-            <div className="flex flex-wrap justify-center gap-6">
-              <a
-                href="mailto:contact@precision3d.com"
-                className="text-blue-400 hover:text-blue-300 transition-colors"
-              >
-                contact@precision3d.com
-              </a>
-              <a
-                href="tel:+1234567890"
-                className="text-blue-400 hover:text-blue-300 transition-colors"
-              >
-                +1 (234) 567-890
-              </a>
-            </div>
-          </motion.div>
+
         </motion.div>
       </div>
     </section>

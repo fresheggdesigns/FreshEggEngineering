@@ -43,37 +43,37 @@ export const PROJECTS: Project[] = [
     modelUrl: "/models/medical-device.glb",
     description: "Ergonomic medical device design with photorealistic rendering and functional prototyping. Focus on user experience and manufacturability."
   },
-  {
-    id: "aerospace-component",
-    title: "Aerospace Component Analysis",
-    year: 2023,
-    categories: ["Simulation", "Schematics"],
-    tools: ["CATIA", "ABAQUS", "MATLAB"],
-    cover: "/images/aerospace-cover.jpg",
-    images: ["/images/aerospace-1.jpg", "/images/aerospace-2.jpg", "/images/aerospace-3.jpg"],
-    description: "High-performance aerospace component with thermal and structural analysis. Includes CFD simulation and material selection studies."
-  },
-  {
-    id: "industrial-robot",
-    title: "Industrial Robot Arm",
-    year: 2023,
-    categories: ["Renders", "Simulation"],
-    tools: ["Inventor", "KeyShot", "RobotStudio"],
-    cover: "/images/robot-cover.jpg",
-    images: ["/images/robot-1.jpg", "/images/robot-2.jpg", "/images/robot-3.jpg"],
-    modelUrl: "/models/robot-arm.glb",
-    description: "6-axis industrial robot arm with motion simulation and collision detection. Features realistic material rendering and workspace analysis."
-  },
-  {
-    id: "consumer-electronics",
-    title: "Consumer Electronics Design",
-    year: 2022,
-    categories: ["Renders", "Prototyping"],
-    tools: ["Fusion 360", "Substance Painter", "Marmoset"],
-    cover: "/images/electronics-cover.jpg",
-    images: ["/images/electronics-1.jpg", "/images/electronics-2.jpg", "/images/electronics-3.jpg"],
-    description: "Modern consumer electronics with focus on aesthetics and functionality. Includes material studies and manufacturing considerations."
-  }
+  // {
+  //   id: "aerospace-component",
+  //   title: "Aerospace Component Analysis",
+  //   year: 2023,
+  //   categories: ["Simulation", "Schematics"],
+  //   tools: ["CATIA", "ABAQUS", "MATLAB"],
+  //   cover: "/images/aerospace-cover.jpg",
+  //   images: ["/images/aerospace-1.jpg", "/images/aerospace-2.jpg", "/images/aerospace-3.jpg"],
+  //   description: "High-performance aerospace component with thermal and structural analysis. Includes CFD simulation and material selection studies."
+  // },
+  // {
+  //   id: "industrial-robot",
+  //   title: "Industrial Robot Arm",
+  //   year: 2023,
+  //   categories: ["Renders", "Simulation"],
+  //   tools: ["Inventor", "KeyShot", "RobotStudio"],
+  //   cover: "/images/robot-cover.jpg",
+  //   images: ["/images/robot-1.jpg", "/images/robot-2.jpg", "/images/robot-3.jpg"],
+  //   modelUrl: "/models/robot-arm.glb",
+  //   description: "6-axis industrial robot arm with motion simulation and collision detection. Features realistic material rendering and workspace analysis."
+  // },
+  // {
+  //   id: "consumer-electronics",
+  //   title: "Consumer Electronics Design",
+  //   year: 2022,
+  //   categories: ["Renders", "Prototyping"],
+  //   tools: ["Fusion 360", "Substance Painter", "Marmoset"],
+  //   cover: "/images/electronics-cover.jpg",
+  //   images: ["/images/electronics-1.jpg", "/images/electronics-2.jpg", "/images/electronics-3.jpg"],
+  //   description: "Modern consumer electronics with focus on aesthetics and functionality. Includes material studies and manufacturing considerations."
+  // }
 ];
 
 export const CATEGORIES = ["Renders", "Schematics", "Prototyping", "Simulation"] as const;

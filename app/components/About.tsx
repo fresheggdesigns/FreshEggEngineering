@@ -23,7 +23,7 @@ const capabilities = [
   },
   {
     icon: Zap,
-    title: 'DFM/DFA',
+    title: 'DFMA',
     description: 'Design for Manufacturing and Assembly optimization'
   },
   {
