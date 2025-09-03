@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { ArrowUp, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -54,9 +55,15 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold gradient-text mb-4">
-                Precision3D
-              </h3>
+              <div className="mb-4">
+                <Image
+                  src="/images/FreshEggEngineering-Logo.png"
+                  alt="FreshEgg Engineering"
+                  width={150}
+                  height={50}
+                  className="h-10 w-auto"
+                />
+              </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Professional 3D modeling, engineering visualization, and simulation services 
                 for modern engineering teams and innovative projects.

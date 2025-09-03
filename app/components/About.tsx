@@ -13,6 +13,7 @@ import {
   CheckCircle,
   ArrowRight
 } from 'lucide-react';
+import Image from 'next/image';
 
 const capabilities = [
   {
@@ -48,8 +49,8 @@ const capabilities = [
 ];
 
 const tools = [
-  'Fusion 360', 'SolidWorks', 'Inventor', 'CATIA', 'Rhino', 'Blender',
-  'KeyShot', 'V-Ray', 'ANSYS', 'ABAQUS', 'MATLAB', 'RobotStudio'
+  'Siemens NX', 'SolidWorks', 'Inventor', 'AutoCAD', 'CAD Drafting', 'FEA',
+  'GD&T', 'PLM'
 ];
 
 export default function About() {
@@ -83,7 +84,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               Combining technical expertise with creative vision to deliver 
-              precision-engineered solutions that push the boundaries of what's possible.
+              precision-engineered solutions, with proven efficiency & quality.
             </motion.p>
           </div>
 
@@ -96,14 +97,15 @@ export default function About() {
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <div className="aspect-square bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-2xl border border-white/10 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Cpu size={48} className="text-white" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">3D Engineering</h3>
-                  <p className="text-gray-400">Professional Portfolio</p>
-                </div>
+              <div className="aspect-square rounded-3xl overflow-hidden border border-white/10">
+                <Image
+                  src="/images/AboutMe-Image.jpg"
+                  alt="About Me - Professional Engineering Portfolio"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
             </motion.div>
 
@@ -120,15 +122,15 @@ export default function About() {
                 the gap between concept and reality.
               </p>
               <p className="text-gray-300 mb-8 leading-relaxed">
-                With expertise spanning multiple industries including aerospace, automotive, 
-                medical devices, and consumer electronics, I deliver solutions that meet 
-                the highest standards of precision and innovation.
+                Mechanical Engineer with 8+ years of experience specializing in CAD/CAM for product design, 
+                development, and manufacturing optimization. Proven ability to drive innovation and efficiency 
+                in complex mechanical systems. Seeking to apply expertise in a CAD Design and Support Engineer role.
               </p>
 
               {/* Stats Row */}
               <div className="grid grid-cols-3 gap-6 mb-8">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-blue-400 mb-1">5+</div>
+                  <div className="text-2xl font-bold text-blue-400 mb-1">8+</div>
                   <div className="text-sm text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center">
@@ -136,7 +138,7 @@ export default function About() {
                   <div className="text-sm text-gray-400">Toolchain</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-green-400 mb-1">6+</div>
+                  <div className="text-2xl font-bold text-green-400 mb-1">3+</div>
                   <div className="text-sm text-gray-400">Industries</div>
                 </div>
               </div>

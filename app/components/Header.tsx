@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 
 const navItems = [
   { name: 'About', href: '#about' },
@@ -61,10 +62,17 @@ export default function Header() {
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-bold gradient-text cursor-pointer"
+            className="cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            Precision3D
+            <Image
+              src="/images/FreshEggEngineeringLogo.png"
+              alt="FreshEgg Engineering"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
           </motion.div>
 
           {/* Desktop Navigation */}
