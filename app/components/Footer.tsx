@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowUp, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
+import { ArrowUp, /*Github,*/ Linkedin, Mail /*ExternalLink*/ } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Footer() {
