@@ -24,7 +24,7 @@ const capabilities = [
   {
     icon: Zap,
     title: 'DFMA',
-    description: 'Design for Manufacturing and Assembly optimization'
+    description: 'Design for Manufacturing and Assembly'
   },
   {
     icon: Layers,
@@ -33,18 +33,18 @@ const capabilities = [
   },
   {
     icon: Settings,
-    title: 'Animation',
-    description: 'Motion studies and assembly animations'
+    title: 'Motion Studies',
+    description: 'Static/Dynamic studies and assembly animations'
   },
   {
     icon: Target,
-    title: 'Photoreal Rendering',
-    description: 'High-quality visualizations with PBR materials'
+    title: 'Rendering',
+    description: 'High-quality visualizations with materials'
   },
   {
     icon: Lightbulb,
     title: 'Simulation',
-    description: 'FEA, CFD, and motion analysis'
+    description: 'Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD)'
   }
 ];
 
