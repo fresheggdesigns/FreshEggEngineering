@@ -7,6 +7,7 @@ export type Project = {
   cover: string;
   images: string[];
   modelUrl?: string;
+  videoUrl?: string;
   description?: string;
 };
 
@@ -20,6 +21,7 @@ export const PROJECTS: Project[] = [
     cover: "/images/turbine-cover.jpg",
     images: ["/images/turbine-1.jpg", "/images/turbine-2.jpg", "/images/turbine-explode.jpg"],
     modelUrl: "/models/turbine.glb",
+    videoUrl: "/videos/Piston.mkv",
     description: "Exploded-view studies and physically-based renders for a high-tolerance housing assembly. Features detailed component breakdown and material analysis."
   },
   {
