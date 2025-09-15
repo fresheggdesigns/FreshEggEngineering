@@ -23,15 +23,26 @@ export default function ProjectCard({ project, onClick, index }: ProjectCardProp
       whileTap={{ scale: 0.98 }}
     >
       <div className="glass rounded-xl overflow-hidden card-hover">
-        {/* Image Container */}
+        {/* Media Container */}
         <div className="relative aspect-video overflow-hidden">
-          <Image
-            src={project.cover}
-            alt={project.title}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-110"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+          {project.cover.endsWith('.mkv') || project.cover.endsWith('.mp4') || project.cover.endsWith('.webm') ? (
+            <video
+              src={project.cover}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              muted
+              loop
+              playsInline
+              preload="metadata"
+            />
+          ) : (
+            <Image
+              src={project.cover}
+              alt={project.title}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-110"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          )}
           
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">

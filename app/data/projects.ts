@@ -18,8 +18,8 @@ export const PROJECTS: Project[] = [
     year: 2025,
     categories: ["Renders", "Schematics"],
     tools: ["Fusion 360", "KeyShot"],
-    cover: "/images/turbine-cover.jpg",
-    images: ["/images/turbine-1.jpg", "/images/turbine-2.jpg", "/images/turbine-explode.jpg"],
+    cover: "/videos/Piston.mkv",
+    images: ["/videos/Piston.mkv", "/images/turbine-1.jpg", "/images/turbine-2.jpg", "/images/turbine-explode.jpg"],
     modelUrl: "/models/turbine.glb",
     videoUrl: "/videos/Piston.mkv",
     description: "Exploded-view studies and physically-based renders for a high-tolerance housing assembly. Features detailed component breakdown and material analysis."

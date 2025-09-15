@@ -149,6 +149,16 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                         </p>
                       </div>
                     </div>
+                  ) : project.images[currentImageIndex].endsWith('.mkv') || project.images[currentImageIndex].endsWith('.mp4') || project.images[currentImageIndex].endsWith('.webm') ? (
+                    <video
+                      src={project.images[currentImageIndex]}
+                      className="w-full h-full object-cover"
+                      controls
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                    />
                   ) : (
                     <Image
                       src={project.images[currentImageIndex]}
@@ -204,13 +214,23 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                       >
-                        <Image
-                          src={image}
-                          alt={`Thumbnail ${index + 1}`}
-                          fill
-                          className="object-cover"
-                          sizes="80px"
-                        />
+                        {image.endsWith('.mkv') || image.endsWith('.mp4') || image.endsWith('.webm') ? (
+                          <video
+                            src={image}
+                            className="w-full h-full object-cover"
+                            muted
+                            playsInline
+                            preload="metadata"
+                          />
+                        ) : (
+                          <Image
+                            src={image}
+                            alt={`Thumbnail ${index + 1}`}
+                            fill
+                            className="object-cover"
+                            sizes="80px"
+                          />
+                        )}
                       </motion.button>
                     ))}
                   </div>
