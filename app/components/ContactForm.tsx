@@ -55,7 +55,7 @@ export default function ContactForm() {
       } else {
         throw new Error('Failed to send message');
       }
-    } catch (error) {
+    } catch (_error) {
       setFormStatus('error');
       setErrorMessage('Failed to send message. Please try again or contact me directly.');
     }
@@ -79,7 +79,7 @@ export default function ContactForm() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Let's Work Together
+              Let&apos;s Work Together
             </motion.h2>
             <motion.p
               className="text-xl text-gray-300 max-w-2xl mx-auto"
@@ -195,7 +195,7 @@ export default function ContactForm() {
                 >
                   <CheckCircle size={20} className="text-green-400" />
                   <p className="text-green-300">
-                    Thank you! Your message has been sent successfully. I'll get back to you soon.
+                    Thank you! Your message has been sent successfully. I&apos;ll get back to you soon.
                   </p>
                 </motion.div>
               )}

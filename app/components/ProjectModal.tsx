@@ -3,12 +3,11 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { 
-  X, 
-  ChevronLeft, 
-  ChevronRight, 
-  ExternalLink, 
-  Calendar, 
+import {
+  X,
+  ChevronLeft,
+  ChevronRight,
+  Calendar,
   Tag,
   Play
 } from 'lucide-react';
@@ -22,12 +21,10 @@ interface ProjectModalProps {
 
 export default function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isModelViewerLoaded, setIsModelViewerLoaded] = useState(false);
 
   useEffect(() => {
     if (isOpen && project) {
       setCurrentImageIndex(0);
-      setIsModelViewerLoaded(false);
     }
   }, [isOpen, project]);
 
@@ -282,7 +279,6 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
                     onClick={() => {
                       // Toggle to model view
                       setCurrentImageIndex(0);
-                      setIsModelViewerLoaded(true);
                     }}
                   >
                     <Play size={16} />

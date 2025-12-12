@@ -10,7 +10,6 @@ import {
   Settings, 
   Target, 
   Lightbulb,
-  CheckCircle,
   ArrowRight
 } from 'lucide-react';
 import Image from 'next/image';
